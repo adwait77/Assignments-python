@@ -1,48 +1,50 @@
-#loop manipulation
-#break
-for i in "adwait":
+ #Demonstrate the use of loop manipulation statements.
+
+#1)break
+for i in "Adwait":
     if i=="w":
         break
     else:
         print(i)
 
 i=1
-while i<=20:
-    if i==10:
+while i<=10:
+    if i==5:
         break
     else:
         print(i)
+        i+=1
 
-#continue
-for i in "adwait":
+# 2)continue
+for i in "Adwait":
     if i=="w":
         continue
     else:
         print(i)
 
 i=1
-while i<=20:
-    if i==10:
+while i<=10:
+    if i==5:
         continue
     else:
         print(i)
-
-#pass
-for i in "adwait":
+        i+=1
+# 3)pass
+for i in "Adwait":
     if i=="w":
         pass
     else:
         print(i)
 
 i=1
-while i<=20:
-    if i==10:
+while i<=10:
+    if i==5:
         pass
     else:
         print(i)
-
-#for with else loop
-for i in "adwait":
+        i+=1
+# 4)for with else loop
+for i in "Adwait":
     if i=="w":
         break
     else:
@@ -50,7 +52,7 @@ for i in "adwait":
 else:
     print("This has break")
 
-for i in "adwait":
+for i in "Adwait":
     if i=="w":
         pass
     else:
@@ -59,7 +61,7 @@ else:
     print("This has pass")
 
 
-for i in "adwait":
+for i in "Adwait":
     if i=="w":
         continue
     else:
@@ -67,31 +69,34 @@ for i in "adwait":
 else:
     print("This has continue")
 
-#while with else loop
-i=1
-while i<=20:
-    if i==10:
+# 5)while with else loop
+i=3
+while i<=10:
+    if i==5:
         break
     else:
         print(i)
+        i+=1
 else:
     print("This has break")
 
-i=1
-while i<=20:
-    if i==10:
+i=4
+while i<=10:
+    if i==5:
         continue
     else:
         print(i)
+        i+=1
 else:
     print("This has continue")
 
 i=1
-while i<=20:
-    if i==10:
+while i<=10:
+    if i==5:
         pass
     else:
         print(i)
+        i+=1
 else:
     print("This has pass")
 
