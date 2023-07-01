@@ -32,7 +32,6 @@ def ds(roll_no, name):
     print("Set:", my_set)
     print("Dictionary:", my_dict)
     
-    # Deleting the data structures
     del my_list
     del my_tuple
     del my_set
@@ -40,5 +39,4 @@ def ds(roll_no, name):
     
     print("Data structures deleted.")
 
-# Example usage of the function
 ds('123', 'John')
