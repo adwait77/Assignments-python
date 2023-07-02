@@ -1,4 +1,3 @@
-
 def update(rollno, name, class_name, file="data.txt"):
     try:
         f=open(file,"a")
